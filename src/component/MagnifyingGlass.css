@@ -1,0 +1,31 @@
+.magnifying-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container h2 {
+  margin-bottom: 10px;
+}
+
+.magnified-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 720px) {
+  .image-box {
+    height: 600px;
+    object-fit: cover;
+    width: 800px;
+    border-radius: 4px;
+  }
+}
